@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ersinkalafat.tamirhaneprojesi.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SQLite Uygulaması"
+            android:textColor="@android:color/holo_red_light"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Yeni Araç Girişi"
+            android:textColor="?attr/colorPrimary"
+            android:textSize="25sp" />
+
+
+        <EditText
+            android:id="@+id/idMarkaET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Marka"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/idFiyatET"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Fiyat"
+            android:inputType="textPersonName" />
+
+
+        <Button
+            android:id="@+id/idBtTamamla"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:text="Tamamla"
+            android:textColor="#ffffff" />
+
+
+        <Button
+            android:id="@+id/idBtListele"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPrimary"
+            android:text="Listele"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/idTvListe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="BOS" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
